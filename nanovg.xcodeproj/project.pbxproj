@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED242E8325E796600087C99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED242E8225E796600087C99D /* Assets.xcassets */; };
+		ED242E9825E7969E0087C99D /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = ED242E9725E7969E0087C99D /* nanovg.c */; };
+		ED242EBA25E796A50087C99D /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED242E9A25E796A50087C99D /* Roboto-Light.ttf */; };
+		ED242EBB25E796A50087C99D /* entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED242E9B25E796A50087C99D /* entypo.ttf */; };
+		ED242EBD25E796A50087C99D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED242E9E25E796A50087C99D /* Roboto-Regular.ttf */; };
+		ED242EBE25E796A50087C99D /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EA025E796A50087C99D /* image8.jpg */; };
+		ED242EBF25E796A50087C99D /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EA125E796A50087C99D /* image9.jpg */; };
+		ED242EC025E796A50087C99D /* image12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EA225E796A50087C99D /* image12.jpg */; };
+		ED242EC125E796A50087C99D /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EA325E796A50087C99D /* image11.jpg */; };
+		ED242EC225E796A50087C99D /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EA425E796A50087C99D /* image10.jpg */; };
+		ED242EC325E796A50087C99D /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EA525E796A50087C99D /* image7.jpg */; };
+		ED242EC425E796A50087C99D /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EA625E796A50087C99D /* image6.jpg */; };
+		ED242EC525E796A50087C99D /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EA725E796A50087C99D /* image4.jpg */; };
+		ED242EC625E796A50087C99D /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EA825E796A50087C99D /* image5.jpg */; };
+		ED242EC725E796A50087C99D /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EA925E796A50087C99D /* image1.jpg */; };
+		ED242EC825E796A50087C99D /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EAA25E796A50087C99D /* image2.jpg */; };
+		ED242EC925E796A50087C99D /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EAB25E796A50087C99D /* image3.jpg */; };
+		ED242ECA25E796A50087C99D /* perf.c in Sources */ = {isa = PBXBuildFile; fileRef = ED242EAC25E796A50087C99D /* perf.c */; };
+		ED242ECB25E796A50087C99D /* example_gl3.c in Sources */ = {isa = PBXBuildFile; fileRef = ED242EAD25E796A50087C99D /* example_gl3.c */; };
+		ED242ECE25E796A50087C99D /* NotoEmoji-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB125E796A50087C99D /* NotoEmoji-Regular.ttf */; };
+		ED242ECF25E796A50087C99D /* images.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB225E796A50087C99D /* images.txt */; };
+		ED242ED025E796A50087C99D /* demo.c in Sources */ = {isa = PBXBuildFile; fileRef = ED242EB325E796A50087C99D /* demo.c */; };
+		ED242ED125E796A50087C99D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB525E796A50087C99D /* Roboto-Bold.ttf */; };
+		ED242ED225E796A50087C99D /* screenshot-02.png in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB625E796A50087C99D /* screenshot-02.png */; };
+		ED242ED425E796A50087C99D /* screenshot-01.png in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB825E796A50087C99D /* screenshot-01.png */; };
+		ED242ED525E796A50087C99D /* LICENSE_OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB925E796A50087C99D /* LICENSE_OFL.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED242E7925E7965A0087C99D /* nanovg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nanovg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED242E8225E796600087C99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED242E8725E796600087C99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED242E8A25E796600087C99D /* nanovg.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nanovg.entitlements; sourceTree = "<group>"; };
+		ED242E9125E7969E0087C99D /* nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl.h; sourceTree = "<group>"; };
+		ED242E9225E7969E0087C99D /* nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg.h; sourceTree = "<group>"; };
+		ED242E9325E7969E0087C99D /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		ED242E9425E7969E0087C99D /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		ED242E9525E7969E0087C99D /* fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
+		ED242E9625E7969E0087C99D /* nanovg_gl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl_utils.h; sourceTree = "<group>"; };
+		ED242E9725E7969E0087C99D /* nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nanovg.c; sourceTree = "<group>"; };
+		ED242E9A25E796A50087C99D /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		ED242E9B25E796A50087C99D /* entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = entypo.ttf; sourceTree = "<group>"; };
+		ED242E9C25E796A50087C99D /* example_gles2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = example_gles2.c; sourceTree = "<group>"; };
+		ED242E9D25E796A50087C99D /* stb_image_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image_write.h; sourceTree = "<group>"; };
+		ED242E9E25E796A50087C99D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		ED242EA025E796A50087C99D /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		ED242EA125E796A50087C99D /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		ED242EA225E796A50087C99D /* image12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image12.jpg; sourceTree = "<group>"; };
+		ED242EA325E796A50087C99D /* image11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpg; sourceTree = "<group>"; };
+		ED242EA425E796A50087C99D /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
+		ED242EA525E796A50087C99D /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		ED242EA625E796A50087C99D /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		ED242EA725E796A50087C99D /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		ED242EA825E796A50087C99D /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		ED242EA925E796A50087C99D /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		ED242EAA25E796A50087C99D /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		ED242EAB25E796A50087C99D /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		ED242EAC25E796A50087C99D /* perf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = perf.c; sourceTree = "<group>"; };
+		ED242EAD25E796A50087C99D /* example_gl3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = example_gl3.c; sourceTree = "<group>"; };
+		ED242EAE25E796A50087C99D /* demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo.h; sourceTree = "<group>"; };
+		ED242EAF25E796A50087C99D /* example_gl2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = example_gl2.c; sourceTree = "<group>"; };
+		ED242EB025E796A50087C99D /* example_fbo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = example_fbo.c; sourceTree = "<group>"; };
+		ED242EB125E796A50087C99D /* NotoEmoji-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoEmoji-Regular.ttf"; sourceTree = "<group>"; };
+		ED242EB225E796A50087C99D /* images.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = images.txt; sourceTree = "<group>"; };
+		ED242EB325E796A50087C99D /* demo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = demo.c; sourceTree = "<group>"; };
+		ED242EB425E796A50087C99D /* perf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perf.h; sourceTree = "<group>"; };
+		ED242EB525E796A50087C99D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		ED242EB625E796A50087C99D /* screenshot-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-02.png"; sourceTree = "<group>"; };
+		ED242EB725E796A50087C99D /* example_gles3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = example_gles3.c; sourceTree = "<group>"; };
+		ED242EB825E796A50087C99D /* screenshot-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-01.png"; sourceTree = "<group>"; };
+		ED242EB925E796A50087C99D /* LICENSE_OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_OFL.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED242E7625E7965A0087C99D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED242E7025E7965A0087C99D = {
+			isa = PBXGroup;
+			children = (
+				ED242E9925E796A50087C99D /* example */,
+				ED242E9025E7969E0087C99D /* src */,
+				ED242E7B25E7965A0087C99D /* nanovg */,
+				ED242E7A25E7965A0087C99D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED242E7A25E7965A0087C99D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED242E7925E7965A0087C99D /* nanovg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED242E7B25E7965A0087C99D /* nanovg */ = {
+			isa = PBXGroup;
+			children = (
+				ED242E8225E796600087C99D /* Assets.xcassets */,
+				ED242E8725E796600087C99D /* Info.plist */,
+				ED242E8A25E796600087C99D /* nanovg.entitlements */,
+			);
+			path = nanovg;
+			sourceTree = "<group>";
+		};
+		ED242E9025E7969E0087C99D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				ED242E9125E7969E0087C99D /* nanovg_gl.h */,
+				ED242E9225E7969E0087C99D /* nanovg.h */,
+				ED242E9325E7969E0087C99D /* stb_image.h */,
+				ED242E9425E7969E0087C99D /* stb_truetype.h */,
+				ED242E9525E7969E0087C99D /* fontstash.h */,
+				ED242E9625E7969E0087C99D /* nanovg_gl_utils.h */,
+				ED242E9725E7969E0087C99D /* nanovg.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		ED242E9925E796A50087C99D /* example */ = {
+			isa = PBXGroup;
+			children = (
+				ED242E9A25E796A50087C99D /* Roboto-Light.ttf */,
+				ED242E9B25E796A50087C99D /* entypo.ttf */,
+				ED242E9C25E796A50087C99D /* example_gles2.c */,
+				ED242E9D25E796A50087C99D /* stb_image_write.h */,
+				ED242E9E25E796A50087C99D /* Roboto-Regular.ttf */,
+				ED242E9F25E796A50087C99D /* images */,
+				ED242EAC25E796A50087C99D /* perf.c */,
+				ED242EAD25E796A50087C99D /* example_gl3.c */,
+				ED242EAE25E796A50087C99D /* demo.h */,
+				ED242EAF25E796A50087C99D /* example_gl2.c */,
+				ED242EB025E796A50087C99D /* example_fbo.c */,
+				ED242EB125E796A50087C99D /* NotoEmoji-Regular.ttf */,
+				ED242EB225E796A50087C99D /* images.txt */,
+				ED242EB325E796A50087C99D /* demo.c */,
+				ED242EB425E796A50087C99D /* perf.h */,
+				ED242EB525E796A50087C99D /* Roboto-Bold.ttf */,
+				ED242EB625E796A50087C99D /* screenshot-02.png */,
+				ED242EB725E796A50087C99D /* example_gles3.c */,
+				ED242EB825E796A50087C99D /* screenshot-01.png */,
+				ED242EB925E796A50087C99D /* LICENSE_OFL.txt */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		ED242E9F25E796A50087C99D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ED242EA025E796A50087C99D /* image8.jpg */,
+				ED242EA125E796A50087C99D /* image9.jpg */,
+				ED242EA225E796A50087C99D /* image12.jpg */,
+				ED242EA325E796A50087C99D /* image11.jpg */,
+				ED242EA425E796A50087C99D /* image10.jpg */,
+				ED242EA525E796A50087C99D /* image7.jpg */,
+				ED242EA625E796A50087C99D /* image6.jpg */,
+				ED242EA725E796A50087C99D /* image4.jpg */,
+				ED242EA825E796A50087C99D /* image5.jpg */,
+				ED242EA925E796A50087C99D /* image1.jpg */,
+				ED242EAA25E796A50087C99D /* image2.jpg */,
+				ED242EAB25E796A50087C99D /* image3.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED242E7825E7965A0087C99D /* nanovg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED242E8D25E796600087C99D /* Build configuration list for PBXNativeTarget "nanovg" */;
+			buildPhases = (
+				ED242E7525E7965A0087C99D /* Sources */,
+				ED242E7625E7965A0087C99D /* Frameworks */,
+				ED242E7725E7965A0087C99D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nanovg;
+			productName = nanovg;
+			productReference = ED242E7925E7965A0087C99D /* nanovg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED242E7125E7965A0087C99D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = bianchui;
+				TargetAttributes = {
+					ED242E7825E7965A0087C99D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = ED242E7425E7965A0087C99D /* Build configuration list for PBXProject "nanovg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED242E7025E7965A0087C99D;
+			productRefGroup = ED242E7A25E7965A0087C99D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED242E7825E7965A0087C99D /* nanovg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED242E7725E7965A0087C99D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED242EC025E796A50087C99D /* image12.jpg in Resources */,
+				ED242E8325E796600087C99D /* Assets.xcassets in Resources */,
+				ED242ED125E796A50087C99D /* Roboto-Bold.ttf in Resources */,
+				ED242ECE25E796A50087C99D /* NotoEmoji-Regular.ttf in Resources */,
+				ED242EBB25E796A50087C99D /* entypo.ttf in Resources */,
+				ED242EC625E796A50087C99D /* image5.jpg in Resources */,
+				ED242EBD25E796A50087C99D /* Roboto-Regular.ttf in Resources */,
+				ED242EBE25E796A50087C99D /* image8.jpg in Resources */,
+				ED242EC425E796A50087C99D /* image6.jpg in Resources */,
+				ED242EC925E796A50087C99D /* image3.jpg in Resources */,
+				ED242EC525E796A50087C99D /* image4.jpg in Resources */,
+				ED242EBA25E796A50087C99D /* Roboto-Light.ttf in Resources */,
+				ED242ED525E796A50087C99D /* LICENSE_OFL.txt in Resources */,
+				ED242EBF25E796A50087C99D /* image9.jpg in Resources */,
+				ED242ED425E796A50087C99D /* screenshot-01.png in Resources */,
+				ED242EC725E796A50087C99D /* image1.jpg in Resources */,
+				ED242EC325E796A50087C99D /* image7.jpg in Resources */,
+				ED242EC225E796A50087C99D /* image10.jpg in Resources */,
+				ED242ECF25E796A50087C99D /* images.txt in Resources */,
+				ED242EC825E796A50087C99D /* image2.jpg in Resources */,
+				ED242ED225E796A50087C99D /* screenshot-02.png in Resources */,
+				ED242EC125E796A50087C99D /* image11.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED242E7525E7965A0087C99D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED242ED025E796A50087C99D /* demo.c in Sources */,
+				ED242ECA25E796A50087C99D /* perf.c in Sources */,
+				ED242ECB25E796A50087C99D /* example_gl3.c in Sources */,
+				ED242E9825E7969E0087C99D /* nanovg.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED242E8B25E796600087C99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ED242E8C25E796600087C99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ED242E8E25E796600087C99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = nanovg/nanovg.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GJ7WKUP5MK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = nanovg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.bianchui.nanovg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED242E8F25E796600087C99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = nanovg/nanovg.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GJ7WKUP5MK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = nanovg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.bianchui.nanovg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED242E7425E7965A0087C99D /* Build configuration list for PBXProject "nanovg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED242E8B25E796600087C99D /* Debug */,
+				ED242E8C25E796600087C99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED242E8D25E796600087C99D /* Build configuration list for PBXNativeTarget "nanovg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED242E8E25E796600087C99D /* Debug */,
+				ED242E8F25E796600087C99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED242E7125E7965A0087C99D /* Project object */;
+}
