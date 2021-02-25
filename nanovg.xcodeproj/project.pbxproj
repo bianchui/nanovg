@@ -25,14 +25,13 @@
 		ED242EC825E796A50087C99D /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EAA25E796A50087C99D /* image2.jpg */; };
 		ED242EC925E796A50087C99D /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED242EAB25E796A50087C99D /* image3.jpg */; };
 		ED242ECA25E796A50087C99D /* perf.c in Sources */ = {isa = PBXBuildFile; fileRef = ED242EAC25E796A50087C99D /* perf.c */; };
-		ED242ECB25E796A50087C99D /* example_gl3.c in Sources */ = {isa = PBXBuildFile; fileRef = ED242EAD25E796A50087C99D /* example_gl3.c */; };
 		ED242ECE25E796A50087C99D /* NotoEmoji-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB125E796A50087C99D /* NotoEmoji-Regular.ttf */; };
-		ED242ECF25E796A50087C99D /* images.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB225E796A50087C99D /* images.txt */; };
 		ED242ED025E796A50087C99D /* demo.c in Sources */ = {isa = PBXBuildFile; fileRef = ED242EB325E796A50087C99D /* demo.c */; };
 		ED242ED125E796A50087C99D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB525E796A50087C99D /* Roboto-Bold.ttf */; };
 		ED242ED225E796A50087C99D /* screenshot-02.png in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB625E796A50087C99D /* screenshot-02.png */; };
 		ED242ED425E796A50087C99D /* screenshot-01.png in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB825E796A50087C99D /* screenshot-01.png */; };
-		ED242ED525E796A50087C99D /* LICENSE_OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED242EB925E796A50087C99D /* LICENSE_OFL.txt */; };
+		ED242ED825E7A2DE0087C99D /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED242ED725E7A2DE0087C99D /* libglfw3.a */; };
+		ED242EE325E7A4AB0087C99D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED242EE225E7A4AB0087C99D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +77,10 @@
 		ED242EB725E796A50087C99D /* example_gles3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = example_gles3.c; sourceTree = "<group>"; };
 		ED242EB825E796A50087C99D /* screenshot-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screenshot-01.png"; sourceTree = "<group>"; };
 		ED242EB925E796A50087C99D /* LICENSE_OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_OFL.txt; sourceTree = "<group>"; };
+		ED242ED725E7A2DE0087C99D /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw3.a; sourceTree = "<group>"; };
+		ED242EE225E7A4AB0087C99D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED242EE525E7A57A0087C99D /* glfw3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glfw3.h; sourceTree = "<group>"; };
+		ED242EE625E7A57A0087C99D /* glfw3native.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glfw3native.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED242ED825E7A2DE0087C99D /* libglfw3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +98,13 @@
 		ED242E7025E7965A0087C99D = {
 			isa = PBXGroup;
 			children = (
+				ED242ED625E7A2DE0087C99D /* libs */,
 				ED242E9925E796A50087C99D /* example */,
 				ED242E9025E7969E0087C99D /* src */,
 				ED242E7B25E7965A0087C99D /* nanovg */,
 				ED242E7A25E7965A0087C99D /* Products */,
+				ED242EE725E7A69C0087C99D /* Resources */,
+				ED242ED925E7A36B0087C99D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +121,7 @@
 			children = (
 				ED242E8225E796600087C99D /* Assets.xcassets */,
 				ED242E8725E796600087C99D /* Info.plist */,
+				ED242EE225E7A4AB0087C99D /* main.m */,
 				ED242E8A25E796600087C99D /* nanovg.entitlements */,
 			);
 			path = nanovg;
@@ -177,6 +185,38 @@
 				ED242EAB25E796A50087C99D /* image3.jpg */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		ED242ED625E7A2DE0087C99D /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				ED242EE425E7A57A0087C99D /* GLFW */,
+				ED242ED725E7A2DE0087C99D /* libglfw3.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		ED242ED925E7A36B0087C99D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED242EE425E7A57A0087C99D /* GLFW */ = {
+			isa = PBXGroup;
+			children = (
+				ED242EE525E7A57A0087C99D /* glfw3.h */,
+				ED242EE625E7A57A0087C99D /* glfw3native.h */,
+			);
+			path = GLFW;
+			sourceTree = "<group>";
+		};
+		ED242EE725E7A69C0087C99D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,13 +288,11 @@
 				ED242EC925E796A50087C99D /* image3.jpg in Resources */,
 				ED242EC525E796A50087C99D /* image4.jpg in Resources */,
 				ED242EBA25E796A50087C99D /* Roboto-Light.ttf in Resources */,
-				ED242ED525E796A50087C99D /* LICENSE_OFL.txt in Resources */,
 				ED242EBF25E796A50087C99D /* image9.jpg in Resources */,
 				ED242ED425E796A50087C99D /* screenshot-01.png in Resources */,
 				ED242EC725E796A50087C99D /* image1.jpg in Resources */,
 				ED242EC325E796A50087C99D /* image7.jpg in Resources */,
 				ED242EC225E796A50087C99D /* image10.jpg in Resources */,
-				ED242ECF25E796A50087C99D /* images.txt in Resources */,
 				ED242EC825E796A50087C99D /* image2.jpg in Resources */,
 				ED242ED225E796A50087C99D /* screenshot-02.png in Resources */,
 				ED242EC125E796A50087C99D /* image11.jpg in Resources */,
@@ -268,9 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED242EE325E7A4AB0087C99D /* main.m in Sources */,
 				ED242ED025E796A50087C99D /* demo.c in Sources */,
 				ED242ECA25E796A50087C99D /* perf.c in Sources */,
-				ED242ECB25E796A50087C99D /* example_gl3.c in Sources */,
 				ED242E9825E7969E0087C99D /* nanovg.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,10 +434,18 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GJ7WKUP5MK;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = nanovg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.bianchui.nanovg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,10 +461,18 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GJ7WKUP5MK;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				INFOPLIST_FILE = nanovg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.bianchui.nanovg;
 				PRODUCT_NAME = "$(TARGET_NAME)";

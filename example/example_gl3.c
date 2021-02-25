@@ -57,6 +57,8 @@ static void key(GLFWwindow* window, int key, int scancode, int action, int mods)
 
 int main()
 {
+    char buf[1024];
+    printf("%s\n", getcwd(buf, 1024));
 	GLFWwindow* window;
 	DemoData data;
 	NVGcontext* vg = NULL;
